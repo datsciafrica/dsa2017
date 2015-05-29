@@ -15,6 +15,7 @@ layout: default
 
 {% if site.conference.hosts %}hosted by {% for person in site.conference.hosts %}[{{ person.name }}]({{ person.url }}){% if site.conference.hosts | size > 1 %}, {% endif %}{% endfor %}{% endif %}
 
+# {% if site.conference.draft == 'Y' %} Draft Schedule {% else %} Schedule {% endif %}
 {% for date in site.conference.dates %}
 ## {{ date.day }} {{ date.date }} {{ date.month }} 
 {% for slot in site.data.lectures %}

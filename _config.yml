@@ -17,6 +17,7 @@ conference:
   hosts:
   organizers:
   - {name: Neil Lawrence, url: "http://inverseprobability.com"}
+  # - {name: Alan Saul, url: "http://www.alansaul.com/"}
   #  - {name: Javier Gonzalez, url: "http://javiergonzalezh.github.io/"}
   #  - {name: Zhenwen Dai, url: "http://staffwww.dcs.shef.ac.uk/people/Z.Dai/"}
   #  - {name: Sheffield ML Group, url: "http://sheffieldml.github.io"}
@@ -27,7 +28,7 @@ conference:
   # add other days here for them to appear
   dates:	
   - {date: 14, day: Monday, month: September, year: 2015}
-  
+  draft: Y # set to Y if the programme is draft only.
 # Build settings
 markdown: kramdown
 
