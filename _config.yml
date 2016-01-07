@@ -1,6 +1,7 @@
 # Site settings
 title: Data Science Africa, Kampala
 email: m.t.smith@sheffield.ac.uk
+banner: "dsa2016.png"
 description: > # this means to ignore newlines until "baseurl:"
   The 2016 Data Science Africa summer school held at Makerere University.
 #baseurl: "" # the subpath of your site, e.g. /blog/
