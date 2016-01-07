@@ -2,7 +2,7 @@
   <table summary="Header Table"><tr>
       <td id="headerLeft">
 	<div id="headerCrest">
-    <a href="{{ site.url }}/"><img src="{{ site.url }}/gpss_logo.svg" width="150" alt="Logo" /></a> 
+    <div class="header-image-wrap"><div class="inner-wrap"><img src="{% if page.banner %}{{ page.banner | prepend: "/assets/" | prepend: site.baseurl }}{% else %}{{ site.banner | prepend: "assets/" }}{% endif %}" class="header-image" alt="{{ site.title }}"></div>
 	</div>
       </td>
       <td id="headerRight">
