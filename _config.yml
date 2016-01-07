@@ -25,10 +25,16 @@ conference:
   name: Data Science Africa Summer School
   location: Makerere University, Uganda
   year: 2016
-  month: June
+  month: June, July
   # add other days here for them to appear
   dates:	
+  - {date: 26, day: Sunday, month: June, year: 2016}
   - {date: 27, day: Monday, month: June, year: 2016}
+  - {date: 28, day: Tuesday, month: June, year: 2016}
+  - {date: 29, day: Wednesday, month: June, year: 2016}
+  - {date: 30, day: Thursday, month: June, year: 2016}
+  - {date: 1, day: Friday, month: July, year: 2016}
+  - {date: 2, day: Saturday, month: July, year: 2016}
   draft: Y # set to Y if the programme is draft only.
 # Build settings
 markdown: kramdown
