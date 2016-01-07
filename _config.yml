@@ -18,11 +18,11 @@ conference:
   organizers:
   - {name: Neil Lawrence, url: "http://inverseprobability.com"}
   - {name: Mike Smith, url: "http://www.michaeltsmith.org"}
-  # - {name: Alan Saul, url: "http://www.alansaul.com/"}
-  #  - {name: Javier Gonzalez, url: "http://javiergonzalezh.github.io/"}
-  #  - {name: Zhenwen Dai, url: "http://staffwww.dcs.shef.ac.uk/people/Z.Dai/"}
-  #  - {name: Sheffield ML Group, url: "http://sheffieldml.github.io"}
-  name: Data Science Africa Summer School
+  - {name: Ernest Mwebaze, url: "http://air.ug/~emwebaze"}
+  - {name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
+  - {name: John Quinn, url: "http://air.ug/~jquinn"}
+  - {name: Mike Croucher, url: "http://www.walkingrandomly.com"}
+  name: Data Science Africa Summer School 2016
   location: Makerere University, Uganda
   year: 2016
   month: June, July
