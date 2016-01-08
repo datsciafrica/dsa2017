@@ -1,10 +1,8 @@
-# gpschool
+# Data Science Africa 2016
 
-Base site for a GP school or workshop.
+Site can be found at: http://opendsi.cc/dsa2016/
 
-Fork this repo under gpschool to create a new school or workshop.
-
-Once you have fored the repo, perform the following actions:
+## Still to do
 
 1. Edit `_config.yaml` with the details of your new school (including location, organisers, title etc).
 
