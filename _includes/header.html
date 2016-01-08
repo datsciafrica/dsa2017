@@ -1,29 +1,10 @@
+
 <header class="site-header">
-  <table summary="Header Table"><tr>
-      <td id="headerLeft">
-	<div id="headerCrest">
-    <div class="header-image-wrap"><div class="inner-wrap"><img src="{% if page.banner %}{{ page.banner | prepend: "/assets/" | prepend: site.baseurl }}{% else %}{{ site.banner | prepend: "assets/" }}{% endif %}" class="header-image" width="50%" alt="{{ site.title }}"></div>
-	</div>
-      </td>
-      <td id="headerRight">
-	<!-- page heading  -->
-	<div id="headerTitle"> 
-	  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-	</div>
-      </td>
-      </tr>
-      <tr>
-      <td>
-      </td>
-      <td>
-      	  <div class="site-sub-title">Making Data Science relevant for Africa</div>
-	<!-- // page heading -->
-      </td>      
-    </tr>
-  </table>
 
   <div class="wrapper">
 
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="header-image-wrap"><div class="inner-wrap"><img src="{% if page.banner %}{{ page.banner | prepend: "/assets/" | prepend: site.baseurl }}{% else %}{{ site.banner | prepend: "assets/" }}{% endif %}" class="header-image"  alt="{{ site.title }}"></div>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -35,9 +16,8 @@
       </a>
 
       <div class="trigger">
-	<!--<a class="page-link" href="{{ site.url }}">Home</a>-->
         {% for page in site.pages %}
-          {% if page.main %}
+          {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
