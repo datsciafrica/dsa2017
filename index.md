@@ -7,6 +7,7 @@ The <a href="http://www.datascienceafrica.org/">Data Science Africa network</a> 
 We start the event with a two or three day summer school in machine learning, followed by regional and international researchers presenting work in the field of data science in Africa.
 
 ## Draft Schedule
+
 ### 27th, 28th, 29th June
 
 Machine Learning summer school
