@@ -2,7 +2,7 @@
 layout: default
 ---
 
-The <a href="http://www.datascienceafrica.org/">Data Science Africa network</a> is holding its second conference from {{ startdate.date }} {{ startdate.month }} to {{ enddate.date }} {{ enddate.month }} {{ startdate.year }} at **{{ site.conference.location }}**.
+The <a href="http://www.datascienceafrica.org/">Data Science Africa network</a> is holding its second conference from 27th June to 1st July, 2016 at **{{ site.conference.location }}**.
 
 We start the event with a two or three day summer school in machine learning, followed by regional and international researchers presenting work in the field of data science in Africa.
 
