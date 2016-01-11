@@ -5,8 +5,6 @@
 
       <div class="header-image-wrap">
         <div class="inner-wrap">
-         
-          <img src="{% if page.banner %}{{ page.banner | prepend: "/assets/" | prepend: site.baseurl }}{% else %}{{ site.banner | prepend: "assets/" }}{% endif %}" class="header-image"  alt="{{ site.title }}" />
           <img src="{{site.baseurl}}/assets/banner.png" class="header-image"  alt="{{ site.title }}" />
         </div>
       </div>
