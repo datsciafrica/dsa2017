@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-The <a href="http://www.datascienceafrica.org/">Data Science Africa network</a> is holding its second conference. In 2015 we held the conference in Kenya at Dedan Kimathi University, Kenya. This year we're back in Uganda at Makerere University, Kampala **from 27th June to 1st July, 2016**.
+The <a href="http://www.datascienceafrica.org/">Data Science Africa network</a> is holding its second conference. In 2015 we held the conference in Kenya at Dedan Kimathi University, Kenya (see <a href="https://sites.google.com/site/dekutdatascienceworkshop2015/">last year's conference programme</a>). This year we're back in Uganda at Makerere University, Kampala **from 27th June to 1st July, 2016**.
 
 We start the event with a two or three day summer school in machine learning, followed by regional and international researchers presenting work in the field of data science in Africa.
 
