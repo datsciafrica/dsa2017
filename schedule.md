@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schedule
-permalink: /schedule/
+permalink: /schedule
 ---
 
 We're currently organising the schedule of speakers. Please check back soon for the programme.
