@@ -7,21 +7,21 @@ permalink: call/
 In this workshop we invite abstracts and talks from researchers and practitioners applying data science methods to problems relevant to Africa. These may include, for example, the following areas:
 
 <ul>
-<li>Bioinformatics
-<li>Healthcare
-<li>Agriculture
-<li>Wildlife conservation
-<li>Disaster response
-<li>Economic monitoring
+<li>Bioinformatics</li>
+<li>Healthcare</li>
+<li>Agriculture</li>
+<li>Wildlife conservation</li>
+<li>Disaster response</li>
+<li>Economic monitoring</li>
 </ul>
 
 Or, for researchers working on methodology, we welcome talks in areas including the following:
 
 <ul>
-<li>Machine learning and probabilistic modelling
-<li>Predictive analytics
-<li>Data visualisation
-<li>Acquisition and manipulation of sensor data
+<li>Machine learning and probabilistic modelling</li>
+<li>Predictive analytics</li>
+<li>Data visualisation</li>
+<li>Acquisition and manipulation of sensor data</li>
 </ul>
 
 We expect to have talks from speakers with a variety of backgrounds, from universities, private sector, government and UN agencies.
