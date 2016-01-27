@@ -27,3 +27,5 @@ Or, for researchers working on methodology, we welcome talks in areas including 
 We expect to have talks from speakers with a variety of backgrounds, from universities, private sector, government and UN agencies.
 
 Submission deadline: 27th May, 2016.
+
+To participate in the workshop please submit a short abstract to the organisers by email at <a href="mailto:jquinn@cit.ac.ug">jquinn@cit.ac.ug</a>.
