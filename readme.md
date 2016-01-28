@@ -1,6 +1,6 @@
 # Data Science Africa 2016
 
-Site can be found at: http://opendsi.cc/dsa2016/
+Site can be found at: http://datascienceafrica.org/dsa2016/
 
 ## Still to do
 
