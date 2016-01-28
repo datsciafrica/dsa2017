@@ -19,4 +19,4 @@ Machine Learning summer school
 
 ### 30th June and 1st July
 
-Two day workshop for data science in Africa
+Two day workshop for data science in Africa.
