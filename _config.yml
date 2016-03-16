@@ -7,12 +7,13 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/dsa2016" # the subpath of your site, e.g. /blog/
 #url: "to do" # the base hostname & protocol for your site
 twitter_username: datsciAfrica
+logo_url: img/logo.png
 #github_username:  SheffieldML
 #facebook_page: gaussianprocesssummerschool
 
-youtube:
-  height: 315
-  width: 560
+# youtube:
+  # height: 315
+  # width: 560
 
 conference:
   hosts:
@@ -37,6 +38,28 @@ conference:
   - {date: 1, day: Friday, month: July, year: 2016}
   - {date: 2, day: Saturday, month: July, year: 2016}
   draft: Y # set to Y if the programme is draft only.
+
+# Hero
+hero:
+    # hero_img: hero.jpg
+    hero_img: gazzelle.jpg
+    hero_img2: chimp.jpg
+    hero_title: Data Science
+    hero_description: Conference website.
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+sass:
+    sass_dir: _scss
+
 # Build settings
 markdown: kramdown
 
