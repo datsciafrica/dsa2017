@@ -43,7 +43,7 @@ conference:
 hero:
     # hero_img: hero.jpg
     hero_img: gazzelle.jpg
-    hero_img2: chimp.jpg
+    hero_img2: Kampala_ug.jpg
     hero_title: Data Science
     hero_description: Conference website.
 
