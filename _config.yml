@@ -1,0 +1,65 @@
+# Site settings
+title: Data Science Africa, Kampala
+email: m.t.smith@sheffield.ac.uk
+banner: "banner.png"
+description: > # this means to ignore newlines until "baseurl:"
+  The 2016 Data Science Africa summer school held at Makerere University.
+baseurl: "/dsa2016" # the subpath of your site, e.g. /blog/
+#url: "to do" # the base hostname & protocol for your site
+twitter_username: datsciAfrica
+logo_url: img/logo.png
+#github_username:  SheffieldML
+#facebook_page: gaussianprocesssummerschool
+
+# youtube:
+  # height: 315
+  # width: 560
+
+conference:
+  hosts:
+  organizers:
+  - {name: Neil Lawrence, url: "http://inverseprobability.com"}
+  - {name: Mike Smith, url: "http://www.michaeltsmith.org"}
+  - {name: Ernest Mwebaze, url: "http://air.ug/~emwebaze"}
+  - {name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
+  - {name: John Quinn, url: "http://air.ug/~jquinn"}
+  - {name: Mike Croucher, url: "http://www.walkingrandomly.com"}
+  name: Data Science Africa Summer School 2016
+  location: Makerere University, Uganda
+  year: 2016
+  month: June, July
+  # add other days here for them to appear
+  dates:	
+  - {date: 26, day: Sunday, month: June, year: 2016}
+  - {date: 27, day: Monday, month: June, year: 2016}
+  - {date: 28, day: Tuesday, month: June, year: 2016}
+  - {date: 29, day: Wednesday, month: June, year: 2016}
+  - {date: 30, day: Thursday, month: June, year: 2016}
+  - {date: 1, day: Friday, month: July, year: 2016}
+  - {date: 2, day: Saturday, month: July, year: 2016}
+  draft: Y # set to Y if the programme is draft only.
+
+# Hero
+hero:
+    # hero_img: hero.jpg
+    hero_img: gazzelle.jpg
+    hero_img2: Kampala_ug.jpg
+    hero_title: Data Science
+    hero_description: Conference website.
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+sass:
+    sass_dir: _scss
+
+# Build settings
+markdown: kramdown
+
