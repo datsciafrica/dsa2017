@@ -128,7 +128,7 @@ $(function () {
             {
                 "date": "",
                 "time": "12:00 - 13:00",
-                "activity": "Lecture 5",
+                "activity": "Introduction to Classification",
                 "facilitator": "John Quinn"
             },
             {
