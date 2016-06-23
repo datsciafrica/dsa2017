@@ -206,7 +206,7 @@ $(function () {
             {
                 "date": "",
                 "time": "12:00 - 13:00",
-                "activity": "Lecture 8",
+                "activity": "Model Selection",
                 "facilitator": "Ciira Maina"
             },
             {
