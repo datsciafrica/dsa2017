@@ -140,7 +140,7 @@ $(function () {
             {
                 "date": "",
                 "time": "14:00 - 15:20",
-                "activity": "Lecture 5 Practice Session",
+                "activity": "Classification Practice Session: Malaria detection",
                 "facilitator": "All facilitators"
             },
             {
