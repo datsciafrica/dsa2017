@@ -50,7 +50,7 @@ var $day3table = $('#table3');
                 "date": "",
                 "time": "12:00 - 13:00",
                 "activity": "Lecture 2 : Introduction to Classification",
-                "facilitator": "Mike Smith <br> <b>Materials:</b> <a href="https://lionfish0.github.io/Classification_talk/">Slides</a>"
+                "facilitator": "Mike Smith <br> <b>Materials:</b> <a href='https://lionfish0.github.io/Classification_talk/'>Slides</a>"
             },
             {
                 "date": "",
@@ -62,7 +62,7 @@ var $day3table = $('#table3');
                 "date": "",
                 "time": "14:00 - 15:20",
                 "activity": "Lecture 2 Practice Session : Classification",
-                "facilitator": "All facilitators <br> <b>Materials:</b> <a href="https://github.com/lionfish0/Classification_talk/blob/master/ipython/Classification.ipynb">Code</a>"
+                "facilitator": "All facilitators <br> <b>Materials:</b> <a href='https://github.com/lionfish0/Classification_talk/blob/master/ipython/Classification.ipynb'>Code</a>"
             },
             {
                 "date": "",
