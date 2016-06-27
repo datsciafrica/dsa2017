@@ -78,9 +78,15 @@ var $day3table = $('#table3');
             },
             {
                 "date": "",
-                "time": "15:30 - 16:30",
-                "activity": "Lecture 3",
-                "facilitator": "Ricardo Andrade/Andreas Damianou"
+                "time": "15:30 - 16:00",
+                "activity": "Lecture 3A: Working with spatial data",
+                "facilitator": "Ricardo Andrade"
+            },
+            {
+                "date": "",
+                "time": "16:00 - 16:30",
+                "activity": "Lecture 3B: From raw data to meaningful features",
+                "facilitator": "Andreas Damianou <br> <b>Materials:</b> <a href='http://adamian.github.io/talks/Kampala_DSA_Features_lecture.pdf'>Slides</a>, <a href='http://adamian.github.io/talks/Kampala_DSA_features.ipynb'>Lab</a>"
             },
             {
                 "date": "",
