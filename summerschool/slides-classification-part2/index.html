@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>Classification Continued</title>
+
+<meta name="author" content="John Quinn">
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/jq.css" id="theme">
+
+<!-- For syntax highlighting -->
+<link rel="stylesheet" href="lib/css/zenburn.css">
+
+<style>
+section { text-align: left}
+</style>
+<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+<script>
+document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+</script>
+
+<!--[if lt IE 9]>
+<script src="lib/js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+<section style="text-align: center">
+<h3 style="line-height: 1.2em">Classification Continued</h3>
+<p>&nbsp;</p>
+<p>John Quinn</p>
+<img height="75px" src="images/plk.png" alt="UNGP" style="margin: 30px 30px 33px 0; box-shadow: none">
+<img height="100px" src="images/mak_crest.png" alt="Makerere" style="margin: 30px 60px 20px 20px; box-shadow: none">
+<p style="font-size: 0.8em">Pulse Lab Kampala</p>
+<p style="font-size: 0.8em">AI Research group, Makerere University</p>
+<p style="margin-top: 2em">Data Science Africa 2016</p>
+</section>
+
+<section>
+<p style="margin-bottom: 30px">We make sense of the world by dividing things up into categories.</p>
+<img height="500px" src="images/breakfasttable.png">
+<p style="font-size: .7em">Karpathy and Fei-Fei (2014), http://arxiv.org/pdf/1412.2306.pdf</p> 
+</section>
+
+
+<section style="text-align: center">
+<div style="margin-top: 150px">
+<p>science</p>
+<p>&uarr;</p>
+<p><i>scientia</i> (Latin: knowledge)</p>
+<p>&uarr;</p>
+<p><i>*skei-</i> (Proto-Indo-European: to cut, to split)</p>
+</div>
+</section>
+
+<section>
+<p>Applications of classification:<p>
+<br>
+<ul>
+<li>Face detection
+<li>Face recognition
+<li>Medical imaging
+<li>Spam detection
+<li>Optical character recognition
+<li>Sentiment analysis
+<li>Biometric identification
+<li>Speech recognition
+</ul>
+</section>
+
+<section style="text-align: center">
+<img width="900px" src="images/earthquakes.png">
+<p style="font-size: .7em">Data: http://anson.ucdavis.edu/~shumway/</p>
+</section>
+
+<section style="text-align: center">
+<p>Diagnosis of cassava diseases</p>
+<img width="800px" src="images/healthy1.jpg">
+</section>
+<section style="text-align: center">
+<img width="900px" src="images/healthy2.jpg">
+</section>
+<section style="text-align: center">
+<img width="900px" src="images/healthy3.jpg">
+</section>
+<section style="text-align: center">
+<img width="900px" src="images/healthy4.jpg">
+</section>
+
+<section style="text-align: center">
+<img width="900px" src="images/cmd1.jpg">
+</section>
+<section style="text-align: center">
+<img width="900px" src="images/cmd2.jpg">
+</section>
+<section style="text-align: center">
+<img width="900px" src="images/cmd3.jpg">
+</section>
+<section style="text-align: center">
+<img width="900px" src="images/cmd4.jpg">
+</section>
+
+<section>
+<br><br><br>
+<p>Diagnosis of banana diseases</p>
+<img width="900px" src="images/banana-patches.png">
+</section>
+
+<section style="text-align: center">
+<video data-autoplay> <source src="images/flow.webm" type="video/mp4" />
+</section>
+
+<section style="text-align: center">
+<img src="images/cattle.jpg">
+</section>
+
+<section style="text-align: center">
+<img width="600px" src="images/vehicle-patches.png">
+</section>
+
+<section style="text-align: center">
+<br><br>
+<img width="700px" src="images/vehicle-keypoint-match.png">
+</section>
+
+<section>
+<p>Classification of households into food-secure and food-insecure based on attributes.</p>
+<img width="450px" src="images/household-attributes.png">
+<p style="font-size: .7em">Household indicator variables are: distance to road (dr), land size (ls), age of household head (age), income (inc), distance from house to garden (dg), all expressed in percentiles of the training data.</p>
+</section>
+
+<section style="text-align: center">
+<img width="550px" src="images/phone-on-mount-sm.jpg"> 
+</section>
+
+<section style="text-align: center">
+<img width="750px" src="images/bloodsmear-fullFOV-sm.jpg"></section>
+
+<section style="text-align: center">
+<img width="750px" src="images/bloodsmear-fullFOV-annotated.jpg"></section>
+
+<section style="text-align: center">
+<img width="700px" src="images/bloodsmear-plasmodiumdetail.jpg"></section>
+
+<section style="text-align: center">
+<img width="700px" src="images/tb-bacilli.jpg"></section>
+
+<section style="text-align: center">
+<img width="700px" src="images/taenia.jpg"></section>
+
+<section style="text-align: center">
+<img width="800px" src="images/blood-motic-grid.png">
+</section>
+
+<section>
+<p>How would you write software to classify handwritten digits?</p>
+<img width="900px" src="images/1s-2s-images.png">
+<p>How about just distinguishing between 1s and 2s?</p>
+</section>
+
+<section style="text-align: left">
+<p>Image data is just grids of numbers, and can be represented as 1D arrays:</p>
+<img width="800px" src="images/image-to-vector.png">
+</section>
+
+<section style="text-align: center">
+<img width="800px" src="images/digits1.png">
+</section>
+
+<section style="text-align: center">
+<img width="800px" src="images/digits3.png">
+</section>
+
+<section style="text-align: center">
+<img width="800px" src="images/digits2.png">
+</section>
+
+<section style="text-align: center">
+<p>We need a similarity, or "distance" measure...</p>
+</section>
+
+<section style="text-align: center">
+<p>We need a similarity, or "distance" measure...</p>
+<br>
+<img width="500px" src="images/euclidean-distance.png">
+</section>
+
+<section style="text-align: center">
+<p>We need a similarity, or "distance" measure...</p>
+<br>
+<br><br>
+<img width="800px" src="images/euclidean-multidim.png">
+</section>
+
+<section style="text-align: center">
+<img width="1000px" src="images/nn-algorithm.png">
+</section>
+
+<section style="text-align: center">
+<img width="650px" src="images/plasmodiumannotation.png">
+</section>
+
+<section style="text-align: center">
+<img width="800px" src="images/malaria-pos.png">
+</section>
+
+<section style="text-align: center">
+<img width="800px" src="images/malaria-neg.png">
+</section>
+
+</div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+controls: false,
+progress: true,
+history: true,
+center: false,
+slideNumber: false,
+mouseWheel: true,
+margin: 0.1,
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+math: {
+        mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+        config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+    },
+
+// Parallax scrolling
+// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+// parallaxBackgroundSize: '2100px 900px',
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+{ src: '/plugin/math/math.js', async: true },
+{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+]
+});
+
+</script>
+</body>
+</html>

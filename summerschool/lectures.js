@@ -134,8 +134,8 @@ $(function () {
             {
                 "date": "",
                 "time": "12:00 - 13:00",
-                "activity": "Introduction to Classification",
-                "facilitator": "John Quinn"
+                "activity": 'Lecture 5: Classification Continued<br><a href="slides-classification-part2">Slides</a>',
+                "facilitator": 'John Quinn'
             },
             {
                 "date": "",
@@ -146,8 +146,8 @@ $(function () {
             {
                 "date": "",
                 "time": "14:00 - 15:20",
-                "activity": "Classification Practice Session: Malaria detection",
-                "facilitator": "All facilitators"
+                "activity": 'Classification Practice Session: Malaria detection.',
+                "facilitator": 'All facilitators<br>Materials: <a href="downloads/Malaria classification example.ipynb">Code</a>, <a href="downloads/malaria-classification-example.npz">Dataset</p></a>'
             },
             {
                 "date": "",
