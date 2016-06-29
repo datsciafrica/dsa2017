@@ -164,7 +164,7 @@ $(function () {
             {
                 "date": "",
                 "time": "15:30 - 16:30",
-                "activity": '<p class="text-warning">Lecture 6: Data Exploration and Visualization</p>'
+                "activity": '<p class="text-warning"> Lecture 6: Data Exploration and Visualization </p>',
                 "facilitator": "Ernest Mwebaze"
             },
             {
