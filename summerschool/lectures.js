@@ -110,8 +110,8 @@ $(function () {
             {
                 "date": "",
                 "time": "9:00 - 10:00",
-                "activity": '<p class="text-warning">Lecture 4 : Data wrangling with Pandas</p>',
-                "facilitator": 'Martin Mubangizi <br> <b>Materials:</b> <a href="#">Notebook</a>, <a href="#">Other References</p></a>'
+                "activity": '<p class="text-warning">Lecture 4 : Cleaning and mapping data with Pandas & GeoPandas </p>',
+                "facilitator": 'Martin Mubangizi <br> <b>Materials:</b> <a href="/downloads/Martin-DSA2016Presentation1.ipynb">Notebook</a>, <a href="/downloads/data-martin.zip">Data</p></a>'
             },
             {
                 "date": "",
@@ -164,14 +164,14 @@ $(function () {
             {
                 "date": "",
                 "time": "15:30 - 16:30",
-                "activity": "Lecture 6",
+                "activity": "Lecture 6: Data Exploration and Visualization",
                 "facilitator": "Ernest Mwebaze"
             },
             {
                 "date": "",
                 "time": "16:30 - 18:00",
                 "activity": "Lecture 6 Practice Session",
-                "facilitator": "All facilitators"
+                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="downloads/Data Exploration materials.zip">Code</a>, <a href="#">Dataset</p></a>'
             }
         ];
         $day2table.bootstrapTable({data: day2data});
@@ -188,8 +188,8 @@ $(function () {
             {
                 "date": "",
                 "time": "9:00 - 10:00",
-                "activity": '<p class="text-warning">Lecture 7 </p>',
-                "facilitator": 'Moustapha Cisse<br> <b>Materials:</b> <a href="#">Slides</a>, <a href="#">Other References</p></a>'
+                "activity": '<p class="text-warning">Lecture 7: Text Mining  </p>',
+                "facilitator": 'Fred Kiwanuka<br> <b>Materials:</b> <a href="#">Slides</a>, <a href="#">Other References</p></a>'
             },
             {
                 "date": "",
