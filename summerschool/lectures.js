@@ -80,7 +80,7 @@ var $day3table = $('#table3');
                 "date": "",
                 "time": "15:30 - 16:00",
                 "activity": "Lecture 3A: Working with spatial data",
-                "facilitator": "Ricardo Andrade"
+                "facilitator": "Ricardo Andrade <br> <b>Materials:</b> <a href='downloads/geostats_03.pdf'>slides</a>"
             },
             {
                 "date": "",
