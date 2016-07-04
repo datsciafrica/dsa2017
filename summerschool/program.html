@@ -12,7 +12,6 @@ layout: school_program
         <h2>Lectures Schedule</h2>
         
         <ul class="nav nav-tabs">
-          <li class="active"><a data-toggle="tab" href="#preworkshop">Pre-workshop</a></li>
 	  {% for post in site.posts reversed %}
 	  {% if post.layout == "school" %}
           <li><a data-toggle="tab" href="#day{{ post.day }}">{{ post.title }}</a></li>
