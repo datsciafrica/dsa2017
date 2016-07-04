@@ -34,13 +34,17 @@ layout: school_program
 	  {% for post in site.posts reversed %}
 	  {% if post.layout == "school" %}
           <div id="day{{ post.day }}" class="tab-pane fade">
-            <p></p><table id="table{{ post.day }}">
-	      <tr><td><h4 class="text-center">Date</h4></td><td><h4 class="text-center">Time</h4></td><td><h4 class="text-center">Activity</h4></td><td><h4 class="text-center">Facilitator</h4></td>
-	      </tr>
-	      {% for talk in post.talks %}
-	      {% include listtalk.html %}
-	      {% endfor %}
-	      
+            <p></p>
+	    <table id="table{{ post.day }}">
+	      <thead>
+		<tr><td><h4 class="text-center">Date</h4></td><td><h4 class="text-center">Time</h4></td><td><h4 class="text-center">Activity</h4></td><td><h4 class="text-center">Facilitator</h4></td>
+		</tr>
+	      </thead>
+	      <tbody>
+		{% for talk in post.talks %}
+		{% include listtalk.html %}
+		{% endfor %}
+	      </tbody>	      
             </table>
           </div>
 	  {% endif %}
