@@ -19,9 +19,9 @@ school:
   name: Data Science in Africa School
   location: "Nelson Mandela Institute, Tanzania"
   dates:
-    2017-07-17
-    2017-07-18
-    2017-07-19
+  - 2017-07-17
+  - 2017-07-18
+  - 2017-07-19
   registration:
     deadline: 2017-06-26
     open: True
