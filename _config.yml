@@ -18,7 +18,8 @@ school:
   name: Data Science in Africa School
   shortname: DSA2017
   location: "Nelson Mandela Institute, Tanzania"
-  dates:
+  googleformid: 5zoTw1jS6w
+  dates:		
   - 2017-07-17
   - 2017-07-18
   - 2017-07-19
@@ -40,7 +41,8 @@ conference:
   - {type: General Chair, name: Dina Machuve, url: "http://www.nm-aist.ac.tz"}
   name: Data Science in Africa Workshop 
   location: Nelson Mandela Institute, Tanzania
-  year: 2017
+  googleformid: Et8ztKOQmo
+  year: 2017	
   month: July
   registration:
     deadline: 2107-06-26

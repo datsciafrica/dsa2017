@@ -135,7 +135,7 @@ layout: events
 	<p align='justify'>The school will also involve end-to-end tutorial sessions from professionals walking the participants through a real data analytics problem from data acquisition to data presentation. To benefit from this course participants are encouraged to have some background in programming particularly programming with Python. </p>
 
 	{% if site.school.registration.open %}
-        <a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/5zoTw1jS6w" style="float:right; 
+        <a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.school.googleformid }}" style="float:right; 
 													   /*background-color:white; 
 													   color:#999; */
 													   /*border-color:#e6e6e6*/
@@ -199,11 +199,8 @@ layout: events
 	  {% include workshop_program.html %}
 
         </div>
-	{% if site.school.registration.open %}
-	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/SDhKuHKz8E" style="float:right; ">Register to attend</a></div>
-	{% endif %}
 	{% if site.conference.registration.open %}
-        <div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/Et8ztKOQmo" style="float:right;margin-right: 20px">Register for Workshop</a></div>
+	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid" style="float:right; ">Register for Workshop</a></div>
 	{% endif %}
       </div>
     </div>
