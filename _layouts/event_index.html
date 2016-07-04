@@ -165,7 +165,7 @@ layout: events
 	{% if site.conference.registration.open %}
         <div style="padding: 20px 0px">
           <h4 style="margin-bottom: 5px;">Important Dates</h4>
-          <p> {{ site.conference.registration | date: "%B %d %Y" }}: Closing Date for Registration</p>
+          <p> {{ site.conference.registration.deadline | date: "%B %d %Y" }}: Closing Date for Registration</p>
         </div>
 	{% endif %}
         <div style="padding: 20px 0px">
