@@ -5,6 +5,3 @@
   <td>{% if talk.url %}<a href="{{ talk.url }}">{% endif %}{{ talk.speaker }}{% if talk.url %}</a>{% endif %}
   {% if talk.institute %}<br>{{ talk.institute }}{% endif %}{% if talk.slides %}<br>[<a href="{{ site.url }}{{ site.baseurl }}/slides/{{ talk.slides }}">slides</a>]{% endif %}</td>
 </tr>
-<!--></br> 
-{% if talk.youtube %} <iframe width="{{ site.youtube.width }}" height="{{ site.youtube.height }}" src="https://www.youtube.com/embed/{{ talk.youtube }}" frameborder="0" allowfullscreen></iframe>
-{% endif %}-->
