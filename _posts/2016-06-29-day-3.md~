@@ -1,0 +1,86 @@
+
+$(function () {
+        var day3data = [
+            {
+                "date": "DAY 3 <br> 29th June 2016",
+                "time": "",
+                "activity": '<h5 class="text-center">SESSION 7 (Data Science)</h5>',
+                "facilitator": ""
+            },
+            {
+                "date": "",
+                "time": "9:00 - 10:00",
+                "activity": '<p class="text-warning">Lecture 7 </p>',
+                "facilitator": 'Moustapha Cisse<br> <b>Materials:</b> <a href="#">Slides</a>, <a href="#">Other References</p></a>'
+            },
+            {
+                "date": "",
+                "time": "10:00 - 10:30",
+                "activity": "Break",
+                "facilitator": ""
+            },
+            {
+                "date": "",
+                "time": "10:30 - 12:00",
+                "activity": "Lecture 7 Practice Session",
+                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="#">Code</a>, <a href="#">Dataset</p></a>'
+            },
+            {
+                "date": "",
+                "time": "",
+                "activity": '<h5 class="text-center">SESSION 8 (Machine Learning)</h5>',
+                "facilitator": ""
+            },
+            {
+                "date": "",
+                "time": "12:00 - 13:00",
+                "activity": "Model Selection",
+                "facilitator": "Ciira Maina"
+            },
+            {
+                "date": "",
+                "time": "13:00 - 14:00",
+                "activity": "Lunch",
+                "facilitator": ""
+            },
+            {
+                "date": "",
+                "time": "14:00 - 15:20",
+                "activity": "Lecture 8 Practice Session",
+                "facilitator": "All facilitators"
+            },
+            {
+                "date": "",
+                "time": "15:20 - 15:30",
+                "activity": "Break",
+                "facilitator": ""
+            },
+            {
+                "date": "",
+                "time": "",
+                "activity": '<h5 class="text-center">SESSION 9 (Data Science)</h5>',
+                "facilitator": ""
+            },
+            {
+                "date": "",
+                "time": "15:30 - 16:30",
+                "activity": "Lecture 9",
+                "facilitator": "IBM Research Nairobi"
+            },
+            {
+                "date": "",
+                "time": "16:30 - 18:00",
+                "activity": "Lecture 9 Practice Session",
+                "facilitator": "All facilitators"
+            },
+            {
+                "date": "END",
+                "time": "18:00 - 19:30",
+                "activity": '<h4 class="text-center text-danger">Cocktail</h4>',
+                "facilitator": "Prof. Barman"
+            }
+        ];
+        $day3table.bootstrapTable({data: day3data});
+    });
+
+
