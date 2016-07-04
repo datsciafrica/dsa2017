@@ -49,7 +49,14 @@ conference:
     2017-07-20
     2017-07-21
   draft: Y # set to Y if the programme is draft only.
-  
+  organizers:
+  - {logo: AI.png, name: "AI Research, Makerere University"}
+  - {logo: sheffield.png, name: University of Sheffield}
+  - {logo: makerere.png, name: Makerere University}
+  - {logo: plklogo.png, name: Pulse Lab Kampala}
+  - {logo: un_uganda1.png}
+  - {logo: dedan_kimathi.jpg, name: Dedan Kimathi University of Technology}
+  sponsors:
 # Hero
 hero:
     # hero_img: hero.jpg

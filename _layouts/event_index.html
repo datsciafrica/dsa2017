@@ -121,10 +121,10 @@ layout: events
                     /*color: #e6e6e6; */
                     line-height: 1em;">Summer School on Machine Learning and Data Science</div>
         <div style="font-size: 1.5em; 
-                    /*color: #e6e6e6*/">Dates:  {{ site.school.dates.first | date: "%d" }}<sup>th</sup> - {{ site.school.dates.last | date: "%d" }}<sup>th</sup> {{ site.school.dates.last | date: "%Y" }}</div>
+                    /*color: #e6e6e6*/">Dates:  {{ site.school.dates.first | date: "%d" }} {{ site.school.dates.first | date: "%B" }} - {{ site.school.dates.last | date: "%d" }} {{ site.school.dates.first | date: "%B" }} {{ site.school.dates.last | date: "%Y" }}</div>
         <div style="font-size: 1.5em; 
                     /*color: #e6e6e6*/
-                    ">Venue: College of Computing and Information Science - Makerere University </div>
+                    ">Venue: {{ site.school.location }}</div>
         <div>&nbsp;</div>
         <p align='justify'>
 
@@ -159,8 +159,8 @@ layout: events
     <div class="row">
       <div class="col-sm-12" style="text-align: left; ">
         <div style="font-size: 2.5em; color: #333; line-height: 1em;">{{ site.conference.name }}</div>
-        <div  style="font-size: 1.5em; color: #333">Dates: June 30<sup>th</sup>  - July 1<sup>st</sup> 2016</div>
-        <div style="font-size: 1.5em; color: #333">Venue: Pulse Lab Kampala (part of UN Global Pulse)
+        <div  style="font-size: 1.5em; color: #333">Dates: {{ site.conference.dates.first | date: "%d" }} {{ site.conference.dates.first | date: "%B" }} - {{ site.conference.dates.last | date: "%d" }} {{ site.conference.dates.first | date: "%B" }} {{ site.conference.dates.last | date: "%Y" }}</div>
+        <div style="font-size: 1.5em; color: #333">Venue: {{ site.conference.venue }}
         </div>
 	{% if site.registration.open %}
         <div style="padding: 20px 0px">
@@ -199,7 +199,7 @@ layout: events
 	{% if site.school.registration.open %}
 	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/SDhKuHKz8E" style="float:right; ">Register to attend</a></div>
 	{% endif %}
-	{% if site.workshop.registration.open %}
+	{% if site.conference.registration.open %}
         <div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/Et8ztKOQmo" style="float:right;margin-right: 20px">Register for Workshop</a></div>
 	{% endif %}
       </div>
@@ -220,54 +220,25 @@ layout: events
     </h2>
     <!-- <LEGEND style="text-align: center">Organizers</LEGEND> -->
     <div class="row">
+      {% for organizer in site.conference.organizers %}
+      
       <div class="col-sm-6 col-md-3">
         <div class="icon-box" style="position: relative; min-height: 80px;">
           <!-- <span class="helper"></span> -->
-          <img class="v-align" style="" src="{{ site.baseurl }}/img/AI.png">
+          <img class="v-align" style="" src="{{ site.baseurl }}/img/{{ organizer.logo }}">
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="icon-box">
-          <img src="{{ site.baseurl }}/img/sheffield.png">
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="icon-box">
-          <img src="{{ site.baseurl }}/img/makerere.png">
-        </div>
-      </div>
-      <!-- <div class="col-sm-6 col-md-3">
-           <div class="icon-box">
-             <img src="{{ site.baseurl }}/img/muk.png">
-           </div>
-      </div> -->
-      <!--
-          <div class="col-sm-6 col-md-3">
-            <div class="icon-box">
-              <img src="{{ site.baseurl }}/img/ibm_africa.jpg">
-            </div>
-          </div>
-	  -->
-      
-      <div class="col-sm-6 col-md-3  " style="">
-        <div class="icon-box">
-          <img src="{{ site.baseurl }}/img/plklogo.png" style="height: 80px;">
-        </div>
-      </div>
-      <div style="margin:0 auto">
-        <div class="col-sm-6 col-md-3 col-md-offset-3">
-          <div class="icon-box">
-            <img src="{{ site.baseurl }}/img/un_uganda1.png">
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 " style="">
-          <div class="icon-box">
-            <img src="{{ site.baseurl }}/img/dedan_kimathi.jpg" style="height: 80px;">
-          </div>
-        </div>
-      </div>
-    </div>
+      {% endfor %}
     <h2 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Sponsorship</h2>
+      {% for sponsor in site.conference.sponsors %}
+      
+      <div class="col-sm-6 col-md-3">
+        <div class="icon-box" style="position: relative; min-height: 80px;">
+          <!-- <span class="helper"></span> -->
+          <img class="v-align" style="" src="{{ site.baseurl }}/img/{{ sponsor.logo }}">
+        </div>
+      </div>
+      {% endfor %}
     <p>Sponsoring the Data Science Africa 2016 Event is a great way to communicate your commitment to support the achievement of the sustainable development goals. To become a sponsor, please contact Data Science Africa at <a href="mailto:info@datascienceafrica.org">info@datascienceafrica.org</a></p> <!--datasciafrica@gmail.com-->
 
     
