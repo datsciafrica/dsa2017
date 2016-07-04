@@ -19,14 +19,11 @@ school:
   name: Data Science in Africa School
   location: Nelson Mandela Institute, Tanzania
   dates:
-  - 2017-07-17
-  - 2017-07-18
-  - 2017-07-19
+    2017-07-17
+    2017-07-18
+    2017-07-19
   registration:
-    deadline:
-      date: 6
-      month: June
-      year: 2017
+    deadline: 2017-06-06
     open: True
   draft: Y # set to Y if the programme is draft only.
   - {name: Mike Smith, url: "http://www.michaeltsmith.org"}
