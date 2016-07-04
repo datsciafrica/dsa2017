@@ -24,7 +24,7 @@ layout: school_program
 	  {% for post in site.posts reversed %}
 	  {% if post.layout == "school" %}
           <div id="day{{ post.day }}" class="tab-pane fade">
-            {{ content }}
+            {{ post.content }}
 	    <p></p>
 	    {% if post.talks %}
 	    <table id="table{{ post.day }}">
