@@ -14,7 +14,7 @@ layout: school_program
         <ul class="nav nav-tabs">
 	  {% for post in site.posts reversed %}
 	  {% if post.layout == "school" %}
-          <li><a data-toggle="tab" href="#day{{ post.day }}">{{ post.title }}</a></li>
+          <li><a data-toggle="tab" href="#{{ post.title | split: ' ' | join: '' }}">{{ post.title }}</a></li>
 	  {% endif %}
 	  {% endfor %}
         </ul>
@@ -22,11 +22,11 @@ layout: school_program
         <div class="tab-content">
 	  {% for post in site.posts reversed %}
 	  {% if post.layout == "school" %}
-          <div id="day{{ post.day }}" class="tab-pane fade">
+          <div id="{{ post.title | split: ' ' | join: '' }}" class="tab-pane fade">
             {{ post.content }}
 	    <p></p>
 	    {% if post.talks %}
-	    <table id="table{{ post.day }}">
+	    <table>
 	      <thead>
 		<tr>
 		  <th><h4 class="text-center">Date</h4></th>

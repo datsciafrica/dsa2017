@@ -14,4 +14,4 @@ Luckily all the software required has already been prepackaged in a bundle calle
 
 #### Stuff to do..
 
-To ensure that the software is working fine on your machine and to get you up and running, download the following [jupyter notebook](./downloads/Lesson-0 Testing  Software .ipynb) and do the exercises in there. If you have not used jupyter notebook before, make friends with Google - a friend in need....</p>
+To ensure that the software is working fine on your machine and to get you up and running, download the following [jupyter notebook](./downloads/Lesson-0 Testing  Software .ipynb) and do the exercises in there. If you have not used jupyter notebook before, make friends with Google - a friend in need ...
