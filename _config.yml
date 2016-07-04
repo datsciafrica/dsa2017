@@ -23,7 +23,7 @@ school:
     2017-07-18
     2017-07-19
   registration:
-    deadline: 2017-06-06
+    deadline: 2017-06-26
     open: True
   draft: Y # set to Y if the programme is draft only.
   - {name: Mike Smith, url: "http://www.michaeltsmith.org"}
@@ -42,15 +42,12 @@ conference:
   year: 2017
   month: July
   registration:
-    deadline:
-      date: 6
-      month: June
-      year: 2017
+    deadline: 2107-06-26
     open: True
   # add other days here for them to appear
   dates:	
-  - {date: 20, day: Thursday, month: July, year: 2017}
-  - {date: 21, day: Friday, month: July, year: 2017}
+    2017-07-20
+    2017-07-21
   draft: Y # set to Y if the programme is draft only.
   
 # Hero
