@@ -1,0 +1,4 @@
+<tr><td></td><td>{{ talk.start }}{% if talk.end %}- {{ talk.end }}{% endif %}</td><td> {% if talk.title %}<b>{% if talk.abstract and page.show_abstracts%}<a class='talk' href='#{{talk.speaker}}'>{{ talk.title }}</a>{% else %}{{talk.title}}{% endif %}</b>{% endif %}</td><td>{% if talk.url %}<a href="{{ talk.url }}">{% endif %}{{ talk.speaker }}{% if talk.url %}</a>{% endif %}</td><td><td>{% if talk.institute %}, {{ talk.institute }}{% endif %}{% if talk.slides %} [<a href="{{ site.url }}{{ site.baseurl }}/slides/{{ talk.slides }}">slides</a>]{% endif %}</td></tr>
+<!--></br> 
+{% if talk.youtube %} <iframe width="{{ site.youtube.width }}" height="{{ site.youtube.height }}" src="https://www.youtube.com/embed/{{ talk.youtube }}" frameborder="0" allowfullscreen></iframe>
+{% endif %}-->
