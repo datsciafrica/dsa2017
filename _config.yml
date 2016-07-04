@@ -8,7 +8,7 @@ baseurl: "/dsa2016" # the subpath of your site, e.g. /blog/
 #url: "to do" # the base hostname & protocol for your site
 twitter_username: datsciAfrica
 logo_url: img/logo.png
-#github_username:  SheffieldML
+github_username:  datsciafrica
 #facebook_page: gaussianprocesssummerschool
 
 # youtube:
@@ -19,9 +19,9 @@ school:
   name: Data Science in Africa School
   location: Nelson Mandela Institute, Tanzania
   dates:
-  - {date: 10, day: Monday, month: July, year: 2017}
-  - {date: 11, day: Tuesday, month: July, year: 2017}
-  - {date: 12, day: Wednesday, month: July, year: 2017}
+  - 2017-07-17
+  - 2017-07-18
+  - 2017-07-19
   registration:
     deadline:
       date: 6
@@ -29,16 +29,17 @@ school:
       year: 2017
     open: True
   draft: Y # set to Y if the programme is draft only.
-
-conference:
-  hosts:
-  organizers:
-  - {name: Neil Lawrence, url: "http://inverseprobability.com"}
   - {name: Mike Smith, url: "http://www.michaeltsmith.org"}
   - {name: Ernest Mwebaze, url: "http://air.ug/~emwebaze"}
   - {name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
   - {name: John Quinn, url: "http://air.ug/~jquinn"}
   - {name: Mike Croucher, url: "http://www.walkingrandomly.com"}
+
+conference:
+  hosts:
+  roles:
+  - {type: Program Chair, name: Ciira Maina, url: "https://sites.google.com/site/cwamainadekut/"}
+  - {type: General Chair, name: Dina Machuve, url: "http://www.nm-aist.ac.tz"}
   name: Data Science in Africa Workshop 
   location: Nelson Mandela Institute, Tanzania
   year: 2017
@@ -51,8 +52,8 @@ conference:
     open: True
   # add other days here for them to appear
   dates:	
-  - {date: 13, day: Thursday, month: July, year: 2017}
-  - {date: 14, day: Friday, month: July, year: 2017}
+  - {date: 20, day: Thursday, month: July, year: 2017}
+  - {date: 21, day: Friday, month: July, year: 2017}
   draft: Y # set to Y if the programme is draft only.
   
 # Hero
