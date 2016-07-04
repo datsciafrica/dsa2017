@@ -1,6 +1,6 @@
 # Site settings
 title: Data Science Africa, Arusha
-banner: "Kampala_ug.jpg"
+banner: "arusha.jpg"
 description: > # this means to ignore newlines until "baseurl:"
   The 2016 Data Science Africa summer school held at Makerere University.
 baseurl: "/dsa2017" # the subpath of your site, e.g. /blog/
