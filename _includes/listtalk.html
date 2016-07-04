@@ -1,6 +1,6 @@
 <tr>
   <td></td>
-  <td>{{ talk.start  | date: "%H:%M" }}{% if talk.end %}- {{ talk.end  | date: "%H:%M" }}{% endif %}</td>
+  <td>{{ talk.start  | date: "%H:%M" }}{% if talk.end %} - {{ talk.end  | date: "%H:%M" }}{% endif %}</td>
   <td> {% if talk.title %}<b>{% if talk.abstract and page.show_abstracts%}<a class='talk' href='#{{talk.speaker}}'>{{ talk.title }}</a>{% else %}{{talk.title}}{% endif %}</b>{% endif %}</td>
   <td>{% if talk.url %}<a href="{{ talk.url }}">{% endif %}{{ talk.speaker }}{% if talk.url %}</a>{% endif %}
   {% if talk.institute %}<br>{{ talk.institute }}{% endif %}{% if talk.slides %}<br>[<a href="{{ site.url }}{{ site.baseurl }}/slides/{{ talk.slides }}">slides</a>]{% endif %}</td>
