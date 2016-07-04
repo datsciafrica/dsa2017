@@ -1,7 +1,7 @@
 # Site settings
-title: Data Science Africa, Kampala
+title: Data Science Africa, Arusha
 email: m.t.smith@sheffield.ac.uk
-banner: "banner.png"
+banner: "Kampala_ug.jpg"
 description: > # this means to ignore newlines until "baseurl:"
   The 2016 Data Science Africa summer school held at Makerere University.
 baseurl: "/dsa2016" # the subpath of your site, e.g. /blog/
@@ -15,6 +15,21 @@ logo_url: img/logo.png
   # height: 315
   # width: 560
 
+school:
+  name: Data Science in Africa School
+  location: Nelson Mandela Institute, Tanzania
+  dates:
+  - {date: 10, day: Monday, month: July, year: 2017}
+  - {date: 11, day: Tuesday, month: July, year: 2017}
+  - {date: 12, day: Wednesday, month: July, year: 2017}
+  registration:
+    deadline:
+      date: 6
+      month: June
+      year: 2017
+    open: True
+  draft: Y # set to Y if the programme is draft only.
+
 conference:
   hosts:
   organizers:
@@ -24,26 +39,27 @@ conference:
   - {name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
   - {name: John Quinn, url: "http://air.ug/~jquinn"}
   - {name: Mike Croucher, url: "http://www.walkingrandomly.com"}
-  name: Data Science Africa Summer School 2016
-  location: Makerere University, Uganda
-  year: 2016
-  month: June, July
+  name: Data Science in Africa Workshop 
+  location: Nelson Mandela Institute, Tanzania
+  year: 2017
+  month: July
+  registration
+    deadline:
+      date: 6
+      month: June
+      year: 2017
+    open: True
   # add other days here for them to appear
   dates:	
-  - {date: 26, day: Sunday, month: June, year: 2016}
-  - {date: 27, day: Monday, month: June, year: 2016}
-  - {date: 28, day: Tuesday, month: June, year: 2016}
-  - {date: 29, day: Wednesday, month: June, year: 2016}
-  - {date: 30, day: Thursday, month: June, year: 2016}
-  - {date: 1, day: Friday, month: July, year: 2016}
-  - {date: 2, day: Saturday, month: July, year: 2016}
+  - {date: 13, day: Thursday, month: July, year: 2017}
+  - {date: 14, day: Friday, month: July, year: 2017}
   draft: Y # set to Y if the programme is draft only.
-
+  
 # Hero
 hero:
     # hero_img: hero.jpg
     hero_img: gazzelle.jpg
-    hero_img2: Kampala_ug.jpg
+    hero_img2: 
     hero_title: Data Science
     hero_description: Conference website.
 
