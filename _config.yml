@@ -46,8 +46,8 @@ conference:
     open: True
   # add other days here for them to appear
   dates:	
-    2017-07-20
-    2017-07-21
+  - 2017-07-20
+  - 2017-07-21
   draft: Y # set to Y if the programme is draft only.
   organizers:
   - {logo: AI.png, name: "AI Research, Makerere University"}
