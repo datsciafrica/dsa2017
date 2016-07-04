@@ -162,10 +162,10 @@ layout: events
         <div  style="font-size: 1.5em; color: #333">Dates: {{ site.conference.dates.first | date: "%d" }} {{ site.conference.dates.first | date: "%B" }} - {{ site.conference.dates.last | date: "%d" }} {{ site.conference.dates.first | date: "%B" }} {{ site.conference.dates.last | date: "%Y" }}</div>
         <div style="font-size: 1.5em; color: #333">Venue: {{ site.conference.venue }}
         </div>
-	{% if site.registration.open %}
+	{% if site.conference.registration.open %}
         <div style="padding: 20px 0px">
           <h4 style="margin-bottom: 5px;">Important Dates</h4>
-          <p> {{ site.registration.month }} {{ site.registration.day }}<sup>th</sup> {{ site.registration.year }}: Closing Date for Registration</p>
+          <p> {{ site.conference.registration | date: "%B %d %Y" }}: Closing Date for Registration</p>
         </div>
 	{% endif %}
         <div style="padding: 20px 0px">
