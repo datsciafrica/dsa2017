@@ -43,7 +43,7 @@ conference:
   location: Nelson Mandela Institute, Tanzania
   year: 2017
   month: July
-  registration
+  registration:
     deadline:
       date: 6
       month: June
