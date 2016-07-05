@@ -35,6 +35,7 @@ school:
   - {name: Mike Croucher, url: "http://www.walkingrandomly.com"}
 
 conference:
+  shortname: DSA2017
   hosts:
   roles:
   - {type: Program Chair, name: Ciira Maina, url: "https://sites.google.com/site/cwamainadekut/"}
