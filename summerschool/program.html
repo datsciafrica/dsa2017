@@ -23,8 +23,9 @@ layout: school_program
 	  {% for post in site.posts reversed %}
 	  {% if post.layout == "school" %}
           <div id="{{ post.title | split: ' ' | join: '' }}" class="tab-pane fade">
-            {{ post.content }}
 	    <p></p>
+            {{ post.content }}
+
 	    {% if post.talks %}
 	    <table>
 	      <thead>
