@@ -6,10 +6,10 @@ layout: workshop_program
 <div class="header vert">
     <div class="container">
         <h1>{{ site.conference.name }} {{ site.conference.year }}</h1>
-        <p>The conference will mainly cover the broad areas of Machine Learing and Data Science. </p>
+        <p>The conference will mainly cover the broad areas of Machine Learning and Data Science. </p>
         
 
-        <h2>Lectures Schedule</h2>
+        <h2>Schedule</h2>
         
         <ul class="nav nav-tabs">
 	  {% for post in site.posts reversed %}
@@ -30,15 +30,14 @@ layout: workshop_program
 	    <table>
 	      <thead>
 		<tr>
-		  <th><h4 class="text-center">Date</h4></th>
 		  <th><h4 class="text-center">Time</h4></th>
-		  <th><h4 class="text-center">Activity</h4></th>
-		  <th><h4 class="text-center">Facilitator</h4></th>
+		  <th><h4 class="text-center">Presentation</h4></th>
+		  <th></th>
 		</tr>
 	      </thead>
 	      <tbody>
 		{% for talk in post.talks %}
-		{% include listtalk.html %}
+		{% include listtalk_tab.html %}
 		{% endfor %}
 	      </tbody>	      
             </table>

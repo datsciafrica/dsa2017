@@ -1,0 +1,58 @@
+<div id="workshop" class="about" style="background-color: #efefef; text-align: center;">
+  <div class="container-fluid">
+    <!-- <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; color:#3dadb2">Workshop</h1> -->
+
+    <div class="row">
+      <div class="col-sm-12" style="text-align: left; ">
+        <div style="font-size: 2.5em; color: #333; line-height: 1em;">{{ site.conference.name }}</div>
+        <div  style="font-size: 1.5em; color: #333">Dates: {{ site.conference.dates.first | date: "%d" }} {{ site.conference.dates.first | date: "%B" }} - {{ site.conference.dates.last | date: "%d" }} {{ site.conference.dates.first | date: "%B" }} {{ site.conference.dates.last | date: "%Y" }}</div>
+        <div style="font-size: 1.5em; color: #333">Venue: {{ site.conference.location }}
+        </div>
+	{% for role in site.conference.roles %}
+        <div style="font-size: 1.25em; color: #333"><b>{{ role.type }}</b>: {{ role.name }}
+        </div>
+	{% endfor %}
+	{% if site.conference.registration.open %}
+        <div style="padding: 20px 0px">
+          <h4 style="margin-bottom: 5px;">Important Dates</h4>
+          <p> {{ site.conference.registration.deadline | date: "%d %B %Y" }}: Closing Date for Registration</p>
+        </div>
+	{% endif %}
+	{% if site.conference.theme %}
+        <div style="padding: 20px 0px">
+          <h4 style="margin-bottom: 5px;">Theme</h4>
+	  {{ site.conference.theme }}
+        </div>
+	{% endif %}
+        <div style="padding: 20px 0px">
+          <h4 style="margin-bottom: 5px;">Call for Registration</h4>
+	  {% if site.registration.open %}
+          <p> We welcome participants working in any field related to
+            data science in Africa. This includes data science
+            researchers from academia or industry, statisticians and
+            data analysts interested in new forms of digital data and
+            methodologies, and people working on issues related to the
+            Global Goals who are interested in the ways that big data
+            and data science can have an impact in their field.
+          </p>
+	  {% endif %}
+          <p align='justify'>The workshop will be organized around interactive panel discussions. Each panel will discuss how data science can advance the achievement of a specific Global Goal on the African continent.</p>
+
+	  <p>This is part of the event will unite a wide range of stakeholders, uniting data scientists with representatives from government, development practitioners and the private sector; a unique setting in which innovative solution driven ideas can thrive. </p>
+
+	  <p>Participants will also develop a <b>framework for attracting</b> young African talent, mentors and researchers from academia, the public sector and the private sector in Africa to engage in activities geared towards harnessing big data and real-time analytics for the public good.
+	  </p>
+
+
+	  <h4 style="margin-top: 20px">Workshop programme outline:</h4>
+
+	  {% include workshop_program.html %}
+
+        </div>
+	{% if site.conference.registration.open %}
+	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:right; ">Register for Workshop</a></div>
+	{% endif %}
+      </div>
+    </div>
+  </div>
+</div>

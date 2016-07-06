@@ -30,15 +30,14 @@ layout: school_program
 	    <table>
 	      <thead>
 		<tr>
-		  <th><h4 class="text-center">Date</h4></th>
 		  <th><h4 class="text-center">Time</h4></th>
 		  <th><h4 class="text-center">Activity</h4></th>
-		  <th><h4 class="text-center">Facilitator</h4></th>
+		  <th><h4 class="text-center">Material</h4></th>
 		</tr>
 	      </thead>
 	      <tbody>
 		{% for talk in post.talks %}
-		{% include listtalk.html %}
+		{% include listtalk_tab.html %}
 		{% endfor %}
 	      </tbody>	      
             </table>

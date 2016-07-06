@@ -2,7 +2,26 @@
 layout: events
 ---
 
-<style type="text/css">
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../assets/bootstrap-table/src/bootstrap-table.css">
+<script src="../assets/jquery.min.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/bootstrap-table/src/bootstrap-table.js"></script>
+<style type="text/css"> 
+  .header {
+  min-height:180px;
+  margin-bottom:20px;
+  }
+  body {
+  height:100%;
+  }
+
+  .vert {
+  vertical-align: middle;
+  width:100%;
+  padding-top:4%;
+
   .hero  .banner a:hover {
   background-color: #fff;
   }
@@ -38,7 +57,8 @@ layout: events
 <!-- Start Hero -->
 <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.banner }}') no-repeat; background-size: cover;">
   <div class="banner container-fluid">
-    <a href="https://sites.google.com/site/dekutdatascienceworkshop2015/" style="
+    {% if site.previous.url %}
+    <a href="{{ site.previous.url }}" style="
 										 display: block;
 										 text-decoration: none;
 										 ">
@@ -65,11 +85,10 @@ layout: events
 			     font-weight: bold;
 			     font-size: 18px;
 
-			     ">Previous: Data Science Africa 2015</div>
-        <div>June 18<sup>th</sup>  - June 19<sup>th</sup> 2015</div>
-        <div>Nyeri, Kenya</div>
+			     "{{ site.previous.text }}
       </div>
     </a>
+  {% endif %}
   </div>
   <div class="hero-content">
     <div class="container-fluid">
@@ -79,7 +98,6 @@ layout: events
       </div>
     </div>
   </div>
-
   <div class="container-fluid" style="height:500px;" >
 
     <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form" style="background-color:transparent;">
@@ -98,8 +116,6 @@ layout: events
     <div class="row">
       <div class="col-sm-12">
 	{{ content }}
-
-	
       </div>
     </div>
   </div>
@@ -107,144 +123,17 @@ layout: events
 <!-- End events -->
 
 <!-- Start Audience -->
-<div id="summer_school" class="about" style="
-					     /*background-color: #3dadb2; */
-					     background-color: #FFF; 
-					     color: rgb(51, 51, 51);
-					     text-align: center;">
-  <div class="container-fluid">
-    <!-- <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; color:">Summer School</h1> -->
-
-    <div class="row">
-      <div class="col-sm-12" style="text-align: left;">
-        <div style="font-size: 2.5em; 
-                    /*color: #e6e6e6; */
-                    line-height: 1em;">Summer School on Machine Learning and Data Science</div>
-        <div style="font-size: 1.5em; 
-                    /*color: #e6e6e6*/">Dates:  {{ site.school.dates.first | date: "%d" }} {{ site.school.dates.first | date: "%B" }} - {{ site.school.dates.last | date: "%d" }} {{ site.school.dates.first | date: "%B" }} {{ site.school.dates.last | date: "%Y" }}</div>
-        <div style="font-size: 1.5em; 
-                    /*color: #e6e6e6*/
-                    ">Venue: {{ site.school.location }}</div>
-        <div>&nbsp;</div>
-        <p align='justify'>
-
-	  In the tradition of previous Africa Data Science workshops, a summer school on machine learning and data science will be held prior to the main workshop. This summer school will target graduate students, researchers and professionals working with huge amounts of data or unique datasets. </p>
-
-	<p align='justify'>The summer school will focus on introductory and advanced lectures in data science and machine learning as well as moderate to advanced practical and tutorial sessions where participants will get their hands wet wrangling and munging datasets and applying cutting edge machine learning techniques to derive inference from the data. Lectures will be given by distinguished world renown researchers and practitioners including researchers from Sheffield University, IBM Research, Facebook, Pulse Lab Kampala and the AI and Data Science (AIR) lab-Makerere University.</p>
-
-	<p align='justify'>The school will also involve end-to-end tutorial sessions from professionals walking the participants through a real data analytics problem from data acquisition to data presentation. To benefit from this course participants are encouraged to have some background in programming particularly programming with Python. </p>
-
-	{% if site.school.registration.open %}
-        <a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.school.googleformid }}" style="float:right; 
-													   /*background-color:white; 
-													   color:#999; */
-													   /*border-color:#e6e6e6*/
-													   ">Register for summer school</a>
-
-        {% else %}
-	<p><i>The summer school is now fully subscribed, and registration has closed.</i></p>
-	<p><a class="btn btn-info" href="{{site.baseurl}}/summerschool/program.html">Summer School Schedule</a></p>
-	{% endif %}
-      </div>
-    </div>
-  </div>
-</div>
+{% include school.html %}
 <!-- End Audience -->
 
 <!-- Start Audience -->
-<div id="workshop" class="about" style="background-color: #efefef; text-align: center;">
-  <div class="container-fluid">
-    <!-- <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; color:#3dadb2">Workshop</h1> -->
-
-    <div class="row">
-      <div class="col-sm-12" style="text-align: left; ">
-        <div style="font-size: 2.5em; color: #333; line-height: 1em;">{{ site.conference.name }}</div>
-        <div  style="font-size: 1.5em; color: #333">Dates: {{ site.conference.dates.first | date: "%d" }} {{ site.conference.dates.first | date: "%B" }} - {{ site.conference.dates.last | date: "%d" }} {{ site.conference.dates.first | date: "%B" }} {{ site.conference.dates.last | date: "%Y" }}</div>
-        <div style="font-size: 1.5em; color: #333">Venue: {{ site.conference.location }}
-        </div>
-	{% if site.conference.registration.open %}
-        <div style="padding: 20px 0px">
-          <h4 style="margin-bottom: 5px;">Important Dates</h4>
-          <p> {{ site.conference.registration.deadline | date: "%B %d %Y" }}: Closing Date for Registration</p>
-        </div>
-	{% endif %}
-        <div style="padding: 20px 0px">
-          <h4 style="margin-bottom: 5px;">Theme</h4>
-          <p>Using data science to monitor and achieve the global goals in Africa</p>
-	  <!--                    <p> The role of data science in the global goals for sustainable development</p>-->
-          <img src="{{site.baseurl}}/img/global_goals.png" style="height:100px">
-        </div>
-        <div style="padding: 20px 0px">
-          <h4 style="margin-bottom: 5px;">Call for Registration</h4>
-	  {% if site.registration.open %}
-          <p> We welcome participants working in any field related to
-            data science in Africa. This includes data science
-            researchers from academia or industry, statisticians and
-            data analysts interested in new forms of digital data and
-            methodologies, and people working on issues related to the
-            Global Goals who are interested in the ways that big data
-            and data science can have an impact in their field.
-          </p>
-	  {% endif %}
-          <p align='justify'>The workshop will be organized around interactive panel discussions. Each panel will discuss how data science can advance the achievement of a specific Global Goal on the African continent.</p>
-
-	  <p>This is part of the event will unite a wide range of stakeholders, uniting data scientists with representatives from government, development practitioners and the private sector; a unique setting in which innovative solution driven ideas can thrive. </p>
-
-	  <p>Participants will also develop a <b>framework for attracting</b> young African talent, mentors and researchers from academia, the public sector and the private sector in Africa to engage in activities geared towards harnessing big data and real-time analytics for the public good.
-	  </p>
-
-
-	  <h4 style="margin-top: 20px">Workshop programme outline:</h4>
-
-	  {% include workshop_program.html %}
-
-        </div>
-	{% if site.conference.registration.open %}
-	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:right; ">Register for Workshop</a></div>
-	{% endif %}
-      </div>
-    </div>
-  </div>
-</div>
+{% include workshop.html %}
 <!-- End Audience -->
 
 
 
 <!-- Start Audience -->
-<div id="sponsors" class="about" style="background-color: #fff; text-align: center; ">
-  <div class="container-fluid">
-    <!-- <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; color:#3dadb2">Workshop</h1> -->
-    
-    <h2 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Collaborators
-      <svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg>
-    </h2>
-    <!-- <LEGEND style="text-align: center">Organizers</LEGEND> -->
-    <div class="row">
-      {% for organizer in site.conference.organizers %}
-      
-      <div class="col-sm-6 col-md-3">
-        <div class="icon-box" style="position: relative; min-height: 80px;">
-          <!-- <span class="helper"></span> -->
-          <img class="v-align" style="" src="{{ site.baseurl }}/img/{{ organizer.logo }}">
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  <h2 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Sponsorship</h2>
-      {% for sponsor in site.conference.sponsors %}
-      
-      <div class="col-sm-6 col-md-3">
-        <div class="icon-box" style="position: relative; min-height: 80px;">
-          <!-- <span class="helper"></span> -->
-          <img class="v-align" style="" src="{{ site.baseurl }}/img/{{ sponsor.logo }}">
-        </div>
-      </div>
-      {% endfor %}
-    <p>Sponsoring the Data Science Africa 2016 Event is a great way to communicate your commitment to support the achievement of the sustainable development goals. To become a sponsor, please contact Data Science Africa at <a href="mailto:info@datascienceafrica.org">info@datascienceafrica.org</a></p> <!--datasciafrica@gmail.com-->
-
-    
-  </div>
-</div>
+{% include sponsors.html %}
 <!-- End Audience -->
 
 <!-- Start Audience -->

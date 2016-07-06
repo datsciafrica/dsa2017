@@ -14,6 +14,12 @@ github_username:  datsciafrica
   # height: 315
   # width: 560
 
+previous:
+  url: https://sites.google.com/site/dekutdatascienceworkshop2015/
+  text: > # From here to school:
+>Previous: Data Science Africa 2015 yep!</div>
+        <div>June 18<sup>th</sup>  - June 19<sup>th</sup> 2015</div>
+        <div>Nyeri, Kenya</div>
 school:
   name: Data Science in Africa School
   shortname: DSA2017
@@ -36,17 +42,20 @@ school:
 
 conference:
   shortname: DSA2017
+  theme: > # whatever comes from here to hosts:
+<p>Using data science to monitor and achieve the global goals in Africa please</p>
+<img src="{{site.baseurl}}/img/global_goals.png" style="height:100px">
   hosts:
   roles:
-  - {type: Program Chair, name: Ciira Maina, url: "https://sites.google.com/site/cwamainadekut/"}
   - {type: General Chair, name: Dina Machuve, url: "http://www.nm-aist.ac.tz"}
+  - {type: Program Chair, name: Ciira Maina, url: "https://sites.google.com/site/cwamainadekut/"}
   name: Data Science in Africa Workshop 
   location: Nelson Mandela Institute, Tanzania
   googleformid: Et8ztKOQmo
   year: 2017	
   month: July
   registration:
-    deadline: 2107-06-26
+    deadline: 2017-06-26
     open: True
   # add other days here for them to appear
   dates:	

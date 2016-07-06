@@ -1,6 +1,7 @@
 ---
 layout: school
 title: Pre-workshop
+active: True
 day: 0
 ---
 
