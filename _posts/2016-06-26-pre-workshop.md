@@ -2,6 +2,7 @@
 layout: school
 title: Pre-workshop
 active: True
+video: False
 day: 0
 ---
 

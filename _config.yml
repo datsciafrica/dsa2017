@@ -1,5 +1,6 @@
 # Site settings
 title: Data Science Africa
+location: Arusha, Tanzania
 year: 2017
 banner: "arusha.jpg"
 description: > # this means to ignore newlines until "baseurl:"
@@ -12,10 +13,18 @@ logo_url: img/logo.png
 github_username:  datsciafrica
 #facebook_page: gaussianprocesssummerschool
 
-# youtube:
-  # height: 315
-  # width: 560
+video:
+  height: 315
+  width: 560
 
+social:
+  title: Social Event
+  text: | 
+    <p>The social event is for promoting networking among members. This time
+    the event is organised at a Chimpanzee sanctuary on an Island in Lake
+    Victoria. For more information.
+
+    <p align="right"><a class="btn btn-primary btn-lg" style="background-color: #3dadb2; border-color: #3dadb2"  href="{{site.baseurl}}/ngamba_island.pdf">Download</a></p>
 
 school:  
   name: Data Science in Africa School
@@ -47,7 +56,7 @@ conference:
   - {type: General Chair, name: Dina Machuve, url: "http://www.nm-aist.ac.tz"}
   - {type: Program Chair, name: Ciira Maina, url: "https://sites.google.com/site/cwamainadekut/"}
   name: Data Science in Africa Workshop 
-  location: Nelson Mandela Institute, Tanzania
+  location: Nelson Mandela African Institute of Science and Technology, Tanzania
   googleformid: Et8ztKOQmo
   year: 2017	
   month: July
@@ -101,3 +110,6 @@ sass:
 # Build settings
 markdown: kramdown
 
+analytics:
+  google:
+    tracking_id: UA-62964644-1
