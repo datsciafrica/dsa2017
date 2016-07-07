@@ -14,16 +14,11 @@ github_username:  datsciafrica
   # height: 315
   # width: 560
 
-previous:
-  url: https://sites.google.com/site/dekutdatascienceworkshop2015/
-  text: > # From here to school:
-Previous: Data Science Africa 2015 yep!</div>
-        <div>June 18<sup>th</sup>  - June 19<sup>th</sup> 2015</div>
-        <div>Nyeri, Kenya</div>
-school:
+
+school:  
   name: Data Science in Africa School
   shortname: DSA2017
-  location: "Nelson Mandela Institute, Tanzania"
+  location: "Nelson Mandela African Institute of Science and Technology, Tanzania"
   googleformid: 5zoTw1jS6w
   dates:		
   - 2017-07-17
@@ -43,8 +38,8 @@ school:
 conference:
   shortname: DSA2017
   theme: > # whatever comes from here to hosts:
-<p>Using data science to monitor and achieve the global goals in Africa please</p>
-<img src="{{site.baseurl}}/img/global_goals.png" style="height:100px">
+    <p>Using data science to monitor and achieve the global goals in Africa</p>
+    <img src="/dsa2016/img/global_goals.png" style="height:100px">
   hosts:
   roles:
   - {type: General Chair, name: Dina Machuve, url: "http://www.nm-aist.ac.tz"}
@@ -69,14 +64,24 @@ conference:
   - {logo: plklogo.png, name: Pulse Lab Kampala}
   - {logo: un_uganda1.png}
   - {logo: dedan_kimathi.jpg, name: Dedan Kimathi University of Technology}
-  sponsors:
-# Hero
-hero:
-    # hero_img: hero.jpg
-    hero_img: gazzelle.jpg
-    hero_img2: 
-    hero_title: Data Science
-    hero_description: Conference website.
+  sponsors: 
+  
+
+
+
+
+previous:
+  url: https://sites.google.com/site/dekutdatascienceworkshop2015/
+  text: | # From here to "school:"
+    <div class="" style="
+                        font-weight: bold; 
+                        font-size: 18px;
+
+                        ">Previous: Data Science Africa 2015</div>
+    <div>June 18<sup>th</sup>  - June 19<sup>th</sup> 2015</div>
+    <div>Nyeri, Kenya</div>
+
+
 
 exclude: [
     package.json,
