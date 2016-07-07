@@ -1,10 +1,12 @@
 # Site settings
-title: Data Science Africa, Arusha
+title: Data Science Africa
+year: 2017
 banner: "arusha.jpg"
 description: > # this means to ignore newlines until "baseurl:"
   The 2016 Data Science Africa summer school held at Makerere University.
 baseurl: "/dsa2017" # the subpath of your site, e.g. /blog/
 url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site
+email: info@datascienceafrica.org
 twitter_username: datsciAfrica
 logo_url: img/logo.png
 github_username:  datsciafrica
@@ -65,8 +67,8 @@ conference:
   - {logo: un_uganda1.png}
   - {logo: dedan_kimathi.jpg, name: Dedan Kimathi University of Technology}
   sponsors: 
-  
-
+  - {logo: facebook.png, name: "Facebook"}  
+  - {logo: google.png, name: "Google"}
 
 feedback: 1q2Mdn-pJsync17Tvb-KtXY2DBNbeWHgV6__d6Ugym5M
 
