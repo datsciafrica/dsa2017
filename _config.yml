@@ -42,11 +42,11 @@ school:
     open: True
   draft: Y # set to Y if the programme is draft only.
   roles:
-  - {type: Speaker, name: Mike Smith, url: "http://www.michaeltsmith.org"}
   - {type: Organizer, name: Ernest Mwebaze, url: "http://air.ug/~emwebaze"}
   - {type: Organizer, name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
   - {type: Organizer, name: John Quinn, url: "http://air.ug/~jquinn"}
   - {type: Speaker, name: Mike Croucher, url: "http://www.walkingrandomly.com"}
+  - {type: Speaker, name: Mike Smith, url: "http://www.michaeltsmith.org"}
 
 conference:
   shortname: DSA2017
