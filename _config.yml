@@ -108,3 +108,5 @@ analytics:
 video:
   height: 315
   width: 560
+
+future: true
