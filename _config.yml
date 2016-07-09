@@ -2,35 +2,37 @@
 title: Data Science Africa
 location: Arusha, Tanzania
 year: 2017
+email: info@datascienceafrica.org
 banner: "arusha.jpg"
 description: > # this means to ignore newlines until "baseurl:"
   The 2016 Data Science Africa summer school held at Makerere University.
 baseurl: "/dsa2017" # the subpath of your site, e.g. /blog/
 url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site
-email: info@datascienceafrica.org
 twitter_username: datsciAfrica
 logo_url: img/logo.png
 github_username:  datsciafrica
-#facebook_page: gaussianprocesssummerschool
 
-video:
-  height: 315
-  width: 560
+previous:
+  url: /dsa2016/
+  text: | # From here to "school:"
+    <div class="" style="
+                        font-weight: bold; 
+                        font-size: 18px;
+
+                        ">Previous: Data Science Africa 2016</div>
+    <div>June 27<sup>th</sup>  - July 1<sup>st</sup> 2016</div>
+    <div>Kampala, Uganda</div>
+
 
 social:
   title: Social Event
-  text: | 
-    <p>The social event is for promoting networking among members. This time
-    the event is organised at a Chimpanzee sanctuary on an Island in Lake
-    Victoria. For more information.
-
-    <p align="right"><a class="btn btn-primary btn-lg" style="background-color: #3dadb2; border-color: #3dadb2"  href="{{site.baseurl}}/ngamba_island.pdf">Download</a></p>
-
+  text:
+  
 school:  
   name: Data Science in Africa School
   shortname: DSA2017
   location: "Nelson Mandela African Institute of Science and Technology, Tanzania"
-  googleformid: 5zoTw1jS6w
+  googleformid: 
   dates:		
   - 2017-07-17
   - 2017-07-18
@@ -40,17 +42,15 @@ school:
     open: True
   draft: Y # set to Y if the programme is draft only.
   roles:
-  - {name: Mike Smith, url: "http://www.michaeltsmith.org"}
-  - {name: Ernest Mwebaze, url: "http://air.ug/~emwebaze"}
-  - {name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
-  - {name: John Quinn, url: "http://air.ug/~jquinn"}
-  - {name: Mike Croucher, url: "http://www.walkingrandomly.com"}
+  - {type: Speaker, name: Mike Smith, url: "http://www.michaeltsmith.org"}
+  - {type: Organizer, name: Ernest Mwebaze, url: "http://air.ug/~emwebaze"}
+  - {type: Organizer, name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
+  - {type: Organizer, name: John Quinn, url: "http://air.ug/~jquinn"}
+  - {type: Speaker, name: Mike Croucher, url: "http://www.walkingrandomly.com"}
 
 conference:
   shortname: DSA2017
-  theme: > # whatever comes from here to hosts:
-    <p>Using data science to monitor and achieve the global goals in Africa</p>
-    <img src="/dsa2016/img/global_goals.png" style="height:100px">
+  theme: 
   hosts:
   roles:
   - {type: General Chair, name: Dina Machuve, url: "http://www.nm-aist.ac.tz"}
@@ -76,21 +76,11 @@ conference:
   - {logo: un_uganda1.png}
   - {logo: dedan_kimathi.jpg, name: Dedan Kimathi University of Technology}
   sponsors: 
-  - {logo: facebook.png, name: "Facebook"}  
-  - {logo: google.png, name: "Google"}
+#- {logo: facebook.png, name: "Facebook"}  
+#- {logo: google.png, name: "Google"}
 
-feedback: 1q2Mdn-pJsync17Tvb-KtXY2DBNbeWHgV6__d6Ugym5M
+feedback: 
 
-previous:
-  url: https://sites.google.com/site/dekutdatascienceworkshop2015/
-  text: | # From here to "school:"
-    <div class="" style="
-                        font-weight: bold; 
-                        font-size: 18px;
-
-                        ">Previous: Data Science Africa 2015</div>
-    <div>June 18<sup>th</sup>  - June 19<sup>th</sup> 2015</div>
-    <div>Nyeri, Kenya</div>
 
 
 
@@ -110,6 +100,11 @@ sass:
 # Build settings
 markdown: kramdown
 
+
 analytics:
   google:
-    tracking_id: UA-62964644-1
+    tracking_id: UA-80484960-1
+
+video:
+  height: 315
+  width: 560
