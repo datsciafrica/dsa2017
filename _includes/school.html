@@ -30,12 +30,13 @@
 	{% include school_program.html %}
 	
 	{% if site.school.registration.open %}
+	{% if site.school.googleformid %}
         <a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.school.googleformid }}" style="float:right; 
 													   /*background-color:white; 
 													   color:#999; */
 													   /*border-color:#e6e6e6*/
 													   ">Register for summer school</a>
-
+	{% endif %}	
         {% else %}
 	<p><i>The summer school is now fully subscribed, and registration has closed.</i></p>
 	{% endif %}

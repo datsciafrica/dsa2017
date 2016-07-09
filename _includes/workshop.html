@@ -50,7 +50,12 @@
 
         </div>
 	{% if site.conference.registration.open %}
+	{% if site.conference.googleformid %}
 	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:right; ">Register for Workshop</a></div>
+	{% endif %}
+	{% else %}
+	<p><i>The workshop is now fully subscribed, and registration has closed.</i></p>
+
 	{% endif %}
       </div>
     </div>

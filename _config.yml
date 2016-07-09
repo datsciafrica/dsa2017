@@ -32,7 +32,7 @@ school:
   name: Data Science in Africa School
   shortname: DSA2017
   location: "Nelson Mandela African Institute of Science and Technology, Tanzania"
-  googleformid: 
+  googleformid: # put the form id here when registration opens for the school
   dates:		
   - 2017-07-17
   - 2017-07-18
@@ -57,7 +57,7 @@ conference:
   - {type: Program Chair, name: Ciira Maina, url: "https://sites.google.com/site/cwamainadekut/"}
   name: Data Science in Africa Workshop 
   location: Nelson Mandela African Institute of Science and Technology, Tanzania
-  googleformid: Et8ztKOQmo
+  googleformid: # put the form id here when registration opens for workshop
   year: 2017	
   month: July
   registration:
