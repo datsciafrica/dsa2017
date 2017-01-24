@@ -1,4 +1,4 @@
-Site can be found at: http://datascienceafrica.org/dsa2017/
+Site can be found at: http://www.datascienceafrica.org/dsa2017/
 
 ## Creating a new conference
 
