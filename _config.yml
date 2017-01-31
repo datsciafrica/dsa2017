@@ -79,6 +79,8 @@ conference:
   #- {logo: facebook.png, name: "Facebook"}  
   #- {logo: google.png, name: "Google"}
   - {logo: twas.png, name: "The World Academy of Sciences (TWAS)", url: "http://twas.org/"}
+  - {logo: HDS_Logo.png, name: "Swansea University", url: "www.swansea.ac.uk/mschealthdatascience "}
+  - {logo: HI_Logo.png, name: "Swansea University", url: "www.mschealthinformatics.swansea.ac.uk"}
 
 feedback: 
 
