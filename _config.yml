@@ -76,8 +76,9 @@ conference:
   - {logo: un_uganda1.png}
   - {logo: dedan_kimathi.jpg, name: Dedan Kimathi University of Technology}
   sponsors: 
-#- {logo: facebook.png, name: "Facebook"}  
-#- {logo: google.png, name: "Google"}
+  #- {logo: facebook.png, name: "Facebook"}  
+  #- {logo: google.png, name: "Google"}
+  - {logo: twas.png, name: "The World Academy of Sciences (TWAS)", url: "http://twas.org/"}
 
 feedback: 
 
