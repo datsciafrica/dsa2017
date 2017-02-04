@@ -15,7 +15,7 @@
 	{% if site.conference.registration.open %}
         <div style="padding: 20px 0px">
           <h4 style="margin-bottom: 5px;">Important Dates</h4>
-          <p> {{ site.conference.abstract.deadline | date: "%d %B %Y" }}: Abstract Submission Deadline</p>
+          <p> {{ site.conference.registration.abstract | date: "%d %B %Y" }}: Abstract Submission Deadline</p>
           <p> {{ site.conference.registration.deadline | date: "%d %B %Y" }}: Closing Date for Registration</p>
         </div>
 	{% endif %}
