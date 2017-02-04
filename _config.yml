@@ -75,13 +75,14 @@ conference:
   - {logo: plklogo.png, name: Pulse Lab Kampala}
   - {logo: un_uganda1.png}
   - {logo: dedan_kimathi.jpg, name: Dedan Kimathi University of Technology}
-  sponsors: 
+  goldsponsors: 
   #- {logo: facebook.png, name: "Facebook"}  
   #- {logo: google.png, name: "Google"}
-  - {logo: twas.png, name: "The World Academy of Sciences (TWAS)", url: "http://twas.org/"}
   - {logo: HDS_Logo.png, name: "Swansea University", url: "http://www.swansea.ac.uk/mschealthdatascience"}
   - {logo: HI_Logo.png, name: "Swansea University", url: "http://www.mschealthinformatics.swansea.ac.uk"}
-
+  silversponsors:
+  - {logo: twas.png, name: "The World Academy of Sciences (TWAS)", url: "http://twas.org/"}
+  
 feedback: 
 
 
