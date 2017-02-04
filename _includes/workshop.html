@@ -9,7 +9,7 @@
         <div style="font-size: 1.5em; color: #333">Venue: {{ site.conference.location }}
         </div>
 	{% for role in site.conference.roles %}
-        <div style="font-size: 1.25em; color: #333"><b>{{ role.type }}</b>: <a href="{{ role.url }}">{{ role.url }}</a> <a href="mailto:{{ role.email }}">{{ role.email }}</a>
+        <div style="font-size: 1.25em; color: #333"><b>{{ role.type }}</b>: <a href="{{ role.url }}">{{ role.name }}</a> <a href="mailto:{{ role.email }}">{{ role.email }}</a>
         </div>
 	{% endfor %}
 	{% if site.conference.registration.open %}
