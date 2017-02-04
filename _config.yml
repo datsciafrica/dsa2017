@@ -53,8 +53,8 @@ conference:
   theme: 
   hosts:
   roles:
-  - {type: General Chair, name: Dina Machuve, url: "http://www.nm-aist.ac.tz"}
-  - {type: Program Chair, name: Ciira Maina, url: "https://sites.google.com/site/cwamainadekut/"}
+  - {type: General Chair, name: Dina Machuve, url: "http://www.nm-aist.ac.tz",email: "dina.machuve@nm-aist.ac.tz"}
+  - {type: Program Chair, name: Ciira Maina, url: "https://sites.google.com/site/cwamainadekut/", email: "ciira.maina@dkut.ac.ke"}
   name: Data Science in Africa Workshop 
   location: Nelson Mandela African Institute of Science and Technology, Tanzania
   googleformid: Sq9P9uKrkG1K1f6W2
