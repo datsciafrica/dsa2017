@@ -15,6 +15,7 @@
 	{% if site.conference.registration.open %}
         <div style="padding: 20px 0px">
           <h4 style="margin-bottom: 5px;">Important Dates</h4>
+          <p> {{ site.conference.abstract.deadline | date: "%d %B %Y" }}: Abstract Submission Deadline</p>
           <p> {{ site.conference.registration.deadline | date: "%d %B %Y" }}: Closing Date for Registration</p>
         </div>
 	{% endif %}
@@ -59,19 +60,20 @@
 	<div align="center">
 	{% if site.conference.registration.open %}
 	{% if site.conference.googleformid %}
-	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:right; ">Register for Workshop</a></div>
+	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:center; ">Register for Workshop</a></div>
 	{% endif %}
 	{% else %}
 	<p><i>The workshop is now fully subscribed, and registration has closed.</i></p>
 
 	{% endif %}
         </div>
+       </div>
 
 	  <h4 style="margin-top: 20px">Workshop programme outline:</h4>
 
 	  {% include workshop_program.html %}
 
-        </div>
+        
 	
       </div>
     </div>
