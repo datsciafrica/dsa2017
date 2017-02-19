@@ -75,7 +75,8 @@ conference:
   - {logo: makerere.png, name: Makerere University}
   - {logo: plklogo.png, name: Pulse Lab Kampala}
   - {logo: un_uganda1.png}
-  - {logo: dedan_kimathi.jpg, name: Dedan Kimathi University of Technology}
+  - {logo: dedan_kimathi.png, name: Dedan Kimathi University of Technology}
+  - {logo: nmaist-logo.png, name: Nelson Mandela African Institute of Science and Technology}
   goldsponsors: 
   #- {logo: facebook.png, name: "Facebook"}  
   #- {logo: google.png, name: "Google"}
