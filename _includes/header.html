@@ -3,6 +3,9 @@
 {% if file.path == 'video.html' %}
         {% assign video = true %}
     {% endif %}
+{% if file.path == 'committee.html' %}
+        {% assign committee = true %}
+    {% endif %}
 {% endfor %}
 
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -30,6 +33,9 @@
 		{% endif %}
 		{% if site.conference %}
                 <li><a class="scroll" href="#workshop">WORKSHOP</a></li>
+		{% endif %}
+		{% if committee %}
+                <li><a class="scroll" href="./committee.html">TECHNICAL COMMITTEE</a></li>
 		{% endif %}
                 <li><a class="scroll" href="#sponsors">COLLABORATORS &amp; SPONSORSHIP</a></li>
 		{% if site.social.text %}
