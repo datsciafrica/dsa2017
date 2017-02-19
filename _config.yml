@@ -74,7 +74,7 @@ conference:
   - {logo: sheffield.png, name: University of Sheffield}
   - {logo: makerere.png, name: Makerere University}
   - {logo: plklogo.png, name: Pulse Lab Kampala}
-  - {logo: un_uganda1.png}
+  - {logo: un_uganda1.png, name: United Nations Uganda}
   - {logo: dedan_kimathi.png, name: Dedan Kimathi University of Technology}
   - {logo: nmaist-logo.png, name: Nelson Mandela African Institute of Science and Technology}
   goldsponsors: 
