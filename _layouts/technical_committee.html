@@ -4,7 +4,7 @@ layout: default
 
 {% include bootstrap_js_code.html %}
 
-{% capture banner_title %}Videos from {{ site.title }} {{ site.year }}{% endcapture %}
+{% capture banner_title %}{{ site.title }} {{ site.year }} Technical Committee{% endcapture %}
 {% if site.banner_video %}
 {% capture banner %}{{ site.baseurl }}/img/{{ site.banner_video }}{% endcapture %}
 {% else %}
