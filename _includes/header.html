@@ -6,6 +6,9 @@
 {% if file.path == 'committee.html' %}
         {% assign committee = true %}
     {% endif %}
+{% if file.path == 'accommodation.html' %}
+        {% assign acc = true %}
+    {% endif %}
 {% endfor %}
 
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -40,6 +43,9 @@
                 <li><a class="scroll" href="#sponsors">COLLABORATORS &amp; SPONSORSHIP</a></li>
 		{% if site.social.text %}
                 <li><a class="scroll" href="#social_event">SOCIAL EVENT</a></li>
+		{% endif %}
+		{% if acc %}
+                <li><a class="scroll" href="./accommodation.html">TECHNICAL COMMITTEE</a></li>
 		{% endif %}
             </ul>
         </div>
