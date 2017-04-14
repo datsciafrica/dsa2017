@@ -81,7 +81,7 @@ conference:
   #- {logo: facebook.png, name: "Facebook"}  
   #- {logo: google.png, name: "Google"}
   - {logo: ARM-RGB-2015.png, name: "ARM", url: "https://www.arm.com/"}
-  - {logo: ARMmbedLogo2-1170x316.png, name: "ARM mbed"}
+  - {logo: ARMmbedLogo2-1170x316.png, name: "ARM mbed", url: "https://www.mbed.com/en/"}
   - {logo: HDS_Logo.png, name: "Swansea University", url: "http://www.swansea.ac.uk/mschealthdatascience"}
   - {logo: HI_Logo.png, name: "Swansea University", url: "http://www.mschealthinformatics.swansea.ac.uk"}
   silversponsors:
