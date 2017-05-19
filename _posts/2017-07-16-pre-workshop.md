@@ -12,7 +12,7 @@ comments: true
 To ensure we hit the ground running, it is essential you install the prerequiste software and test it out and make sure it is working on your computer. The venue for the summer school will have some computers on which the software will have been installed but you are advised to come with your own laptop with the software installed.
 
 
-Luckily all the software required has already been prepackaged in a bundle called *Anaconda*. You can download the various versions of the software for your laptop OS and architecture from the [Anaconda website](https://www.continuum.io/downloads)
+Luckily all the software required has already been prepackaged in a bundle called *Anaconda*. You can download the various versions of the software for your laptop OS and architecture from the [Anaconda website](https://www.continuum.io/downloads) .
 
 
 #### Stuff to do..
