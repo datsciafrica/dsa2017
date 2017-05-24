@@ -62,7 +62,7 @@ conference:
   month: July
   registration:
     deadline: 2017-06-26
-    open: False
+    open: True
   # add other days here for them to appear
     abstract: 2017-05-26
   dates:	
