@@ -1,12 +1,11 @@
 <div class="header vert">
   <div class="container">
- <div style="font-size: 1.5em; color: #333; line-height: 1em;">{% if site.conference.draft %}Draft {% endif %}Lecture Schedule</div>    
+    <div style="font-size: 1.5em; color: #333; line-height: 1em;">{% if site.conference.draft %}Draft {% endif %}Lecture Schedule</div>    
     <p></p>
     <ul class="nav nav-tabs">
       {% for post in site.posts reversed %}
       {% if post.layout == "school" %}
-      {% if post.active %}<li class="active">{% else %}<li>{% endif %}<a data-toggle="tab" href="#School{{ post.title | split: ' ' | join: '' }}">{{ post.title }}</a></li>
-      {% endif %}
+      {% if post.active %}<li class="active">{% else %}<li>{% endif %}<a data-toggle="tab" href="#School{{ post.title | split: ' ' | join: '' }}">{{ post.title }}</a></li>{% endif %}
       {% endfor %}
     </ul>
     
