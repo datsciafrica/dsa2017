@@ -57,7 +57,11 @@
 	  <p>Participants will also develop a <b>framework for attracting</b> young African talent, mentors and researchers from academia, the public sector and the private sector in Africa to engage in activities geared towards harnessing big data and real-time analytics for the public good.
 	  </p>
 
-	<div align="center">
+	  <h4 style="margin-top: 20px">Workshop programme outline:</h4>
+
+	  {% include workshop_program.html %}
+
+
 	{% if site.conference.registration.open %}
 	{% if site.conference.googleformid %}
 	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:center; ">Register for Workshop</a></div>
@@ -66,12 +70,6 @@
 	<p><i>The workshop is now fully subscribed, and registration has closed.</i></p>
 
 	{% endif %}
-        </div>
-       </div>
-
-	  <h4 style="margin-top: 20px">Workshop programme outline:</h4>
-
-	  {% include workshop_program.html %}
 
         
 	
